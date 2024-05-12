@@ -1,0 +1,103 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #80db1e;
+    background-color: #f9f9f9; /* added a light gray background */
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #3498db; /* changed to a blue color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* added a subtle shadow */
+  }
+  
+  /* Hero Section Styles */
+  
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    height: 100vh; /* added a full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* centered the content vertically and horizontally */
+  }
+  
+  /* Button Styles */
+  
+  .btn {
+    background-color: #FFC107; /* changed to a warm orange color */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* added a subtle shadow */
+  }
+  
+  .btn:hover {
+    background-color: #FFA07A; /* changed to a darker orange color on hover */
+  }
+  
+  /* About Section Styles */
+  
+  .about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f7f7f7; /* added a light gray background */
+  }
+  
+  .about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #FFC107; /* matched the button color */
+  }
+  
+  .about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .about ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .about ul li {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .about ul li:before {
+    content: "\2022"; /* added a bullet point */
+    color: #FFC107; /* matched the button color */
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    background-color: #3498db; /* matched the header color */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* added a subtle shadow */
+  }

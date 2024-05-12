@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Investor Portal</title>
+  <link rel="stylesheet" type="text/css" href="style6.css">
+</head>
+<body>
+  <header>
+    <h1>Investor Portal</h1>
+  </header>
+  <main>
+    <form id="preferences">
+      <article id="co-investment">
+        <h2>Co-Investment Partner Preference:</h2>
+        <div class="option">
+          <input type="radio" id="yes" name="co-investment" value="yes" required>
+          <label for="yes">Yes</label>
+        </div>
+        <div class="option">
+          <input type="radio" id="no" name="co-investment" value="no" required>
+          <label for="no">No</label>
+        </div>
+      </article>
+      <article id="projects">
+        <h2>Types of Projects Interested In:</h2>
+        <div class="option">
+          <input type="checkbox" id="real-estate" name="projects" value="real-estate" required>
+          <label for="real-estate">Real Estate</label>
+        </div>
+        <div class="option">
+          <input type="checkbox" id="stocks" name="projects" value="stocks" required>
+          <label for="stocks">Stocks</label>
+        </div>
+        <div class="option">
+          <input type="checkbox" id="startups" name="projects" value="startups" required>
+          <label for="startups">Startups</label>
+        </div>
+        <div class="option">
+          <input type="checkbox" id="bonds" name="projects" value="bonds" required>
+          <label for="bonds">Bonds</label>
+        </div>
+      </article>
+      <article id="budget">
+        <h2>Budget for Project:</h2>
+        <input type="number" id="budget" name="budget" min="1000000" max="1000000000" required>
+      </article>
+      <article id="availability">
+        <h2>Availability:</h2>
+        <textarea id="availability" name="availability" rows="4" cols="50" required></textarea>
+      </article>
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+  <footer>
+    <script src="lata.js"></script>
+    <p>&copy; 2023 Investor Portal</p>
+  </footer>
+</body>
+</html>
